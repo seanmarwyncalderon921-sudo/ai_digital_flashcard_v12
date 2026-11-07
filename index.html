@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<DOCTYPE !HTML>
+<html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,14 +8,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css?v=20261108-email-auth-v30" />
+
+  <!-- Firebase Configuration & SDK Services -->
+  <script src="firebase-config.js?v=20261108"></script>
+  <script src="firebase-services.js?v=20261108" type="module"></script>
+
   <!-- Confetti Canvas Library -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+  
   <!-- Document Parsers (PDF.js & JSZip for PPTX) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js" defer></script>
 </head>
-<body class="light-theme auth-active">
 
   <!-- STANDALONE LOGIN PAGE VIEW -->
   <section id="auth-screen" class="auth-page">
